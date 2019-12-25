@@ -14,7 +14,7 @@ import math
 
 class LanguageModelContent:
 
-    def __init__(self, possibility, words, punishment):
+    def __init__(self, possibility, words, punishment = ''):
         self.possibility = possibility
         self.words = words
         self.punishment = punishment
@@ -91,7 +91,7 @@ if __name__ == "__main__":
                             conditional_possibility = union_count / count
                             conditional_possibility = math.log10(conditional_possibility)
                             conditional_possibility = round(conditional_possibility, 6)
-                            language_model = LanguageModelContent(str(conditional_possibility), words, str(-99))
+                            language_model = LanguageModelContent(str(conditional_possibility), words)
                             language_models.append(language_model)
 
             # this process can run in first loop
