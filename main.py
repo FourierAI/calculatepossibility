@@ -14,7 +14,7 @@ import math
 
 class LanguageModelContent:
 
-    def __init__(self, possibility, words, punishment = ''):
+    def __init__(self, possibility, words, punishment=''):
         self.possibility = possibility
         self.words = words
         self.punishment = punishment
@@ -56,7 +56,7 @@ if __name__ == "__main__":
     unary_count = 0
     with open('/Users/geekye/Documents/Dataset/LM/UniBiGram/ngrams-00000-of-00394') as file:
         for line in file:
-            if re.match('^[\u4e00-\u9fa5]{1,}', line) and line != '' and line != '\n':
+            if re.match('^[\u4e00-\u9fa5]{1,}[\s\t]{1,}\d{1,}', line) and line != '' and line != '\n':
                 content = line.split('\t')
                 key = content[0]
                 value = int(content[1])
@@ -68,7 +68,7 @@ if __name__ == "__main__":
         file.write('ngram 1=' + str(unary_class_count) + '\n')
 
     binary_class_count = 0
-    files = os.listdir('/Users/geekye/Documents/Dataset/LM/UniBiGram')
+    files = sorted(os.listdir('/Users/geekye/Documents/Dataset/LM/UniBiGram'))
 
     files_valid = [file for file in files if file != 'ngrams-00000-of-00394']
 
@@ -78,7 +78,7 @@ if __name__ == "__main__":
         language_models = []
         with open('/Users/geekye/Documents/Dataset/LM/UniBiGram/' + binary_file) as file:
             for line in file:
-                if re.match('^[\u4e00-\u9fa5]{1,}', line) and line != '' and line != '\n':
+                if re.match('^[\u4e00-\u9fa5]{1,8}[\s\t]{1,}[\u4e00-\u9fa5]{1,8}[\s\t]{1,}\d{1,}',line) and line != '' and line != '\n':
                     content = re.split('[\s\t]+', line)
                     under_word = content[0]
                     after_word = content[1]
@@ -94,10 +94,10 @@ if __name__ == "__main__":
                             language_model = LanguageModelContent(str(conditional_possibility), words)
                             language_models.append(language_model)
 
-            # this process can run in first loop
-            if language_1model_switch:
-                write_language_1model(unary_model, binary_class_count, unary_count)
-                language_1model_switch = False
+        # this process can run in first loop
+        if language_1model_switch:
+            write_language_1model(unary_model, binary_class_count, unary_count)
+            language_1model_switch = False
 
         with open('output.txt', 'a') as file:
             for model in language_models:
