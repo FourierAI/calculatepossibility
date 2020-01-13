@@ -1,0 +1,1 @@
+delete from ngram_1 where ngram1_id =11;
