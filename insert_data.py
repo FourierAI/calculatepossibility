@@ -51,7 +51,7 @@ if __name__ == "__main__":
                     sql = 'insert into ngram_2 ( ngram2_under_word, ngram2_after_word, ngram2_possibility,punishment ) VALUES ("%s","%s","%s","%s");'%(under_word, after_word, possibility, punishment)
                     cursor.execute(sql)
     except Exception as ex:
-        db.rollback
+        db.rollback()
         traceback.print_exc()
     finally:
         db.commit()
