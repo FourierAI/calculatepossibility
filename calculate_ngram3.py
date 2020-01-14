@@ -14,7 +14,6 @@ import traceback
 import codecs
 import sys
 sys.stdout = codecs.getwriter('utf-8')(sys.stdout.detach())
-sys.stdout.write("Your content..在.")
 
 if __name__ == "__main__":
 
