@@ -15,7 +15,7 @@ import traceback
 if __name__ == "__main__":
 
     gram_2 = {}
-    with open('/Data_SSD/zhipengye/zhipengye/data/gram2/gram2_count.out', encoding='gb18030') as file:
+    with open('/Data_SSD/zhipengye/zhipengye/data/gram2/gram2ngrams-00002-of-00394', encoding='utf-8') as file:
         for line in file:
             print(line)
             if '' is not line: 
