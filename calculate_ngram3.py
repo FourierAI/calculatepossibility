@@ -13,7 +13,7 @@ import main
 if __name__ == "__main__":
 
     gram_2 = {}
-    with open('/Data_HDD/zhipengye/data/gram2/gram2_count.out') as file:
+    with open('/Data_SSD/zhipengye/zhipengye/data/gram2/gram2_count.out') as file:
         for line in file:
             segments = line.split('\t')
             words = segments[0]
