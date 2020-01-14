@@ -7,12 +7,6 @@
 # @time: 2020-01-14 01:27
 # @desc:
 
-import sys
-defaultencoding = 'utf-8'
-if sys.getdefaultencoding() != defaultencoding:
-    reload(sys)
-    sys.setdefaultencoding(defaultencoding)
-
 import os
 import re
 import main
@@ -20,7 +14,7 @@ import main
 if __name__ == "__main__":
 
     gram_2 = {}
-    with open('/Data_SSD/zhipengye/zhipengye/data/gram2/gram2_count.out') as file:
+    with open('/Data_SSD/zhipengye/zhipengye/data/gram2/gram2_count.out'，encoding='utf-8') as file:
         for line in file:
             segments = line.split('\t')
             words = segments[0]
