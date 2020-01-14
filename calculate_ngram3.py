@@ -26,8 +26,8 @@ if __name__ == "__main__":
             except Exception as ex:
                 traceback.print_exc()
                 print(line)
-                print('segment[0]：',segments[0])
-                print('segment[1]：',segments[1])
-                print('segment[2]：',segments[2])
+                print('segment[0]:',segments[0])
+                print('segment[1]:',segments[1])
+                print('segment[2]:',segments[2])
                 
     print(gram_2.get('一 一'))
