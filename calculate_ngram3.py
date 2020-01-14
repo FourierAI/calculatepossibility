@@ -70,7 +70,7 @@ if __name__ == "__main__":
                         conditional_possibility = count / float(gram_2_count)
                         conditional_possibility = math.log10(conditional_possibility)
                         conditional_possibility = round(conditional_possibility, 6)
-                        model = LanguageModelContent(conditional_possibility,words )
+                        model = LanguageModelContent(str(conditional_possibility),words )
                         model_list.append(model)
 
             if len(model_list) >= 1000000:
