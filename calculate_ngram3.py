@@ -18,7 +18,7 @@ if __name__ == "__main__":
     with open('/Data_SSD/zhipengye/zhipengye/data/gram2/gram2_count.out', encoding='utf-8') as file:
         for line in file:
             print(line)
-            if '' is not lsine: 
+            if '' is not line: 
                 try:
                     segments = re.split('[\t\s]+',line)
                     first_word = segments[0]
