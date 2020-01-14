@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09a1c0eb-8f43-4587-9b80-21caf4c03b8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculate_ngram3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/calculatepossibility.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/calculatepossibility.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/count_ngram2.py" beforeDir="false" afterPath="$PROJECT_DIR$/count_ngram2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/calculatepossibility$main.coverage" NAME="main Coverage Results" MODIFIED="1578144673522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/calculatepossibility$count_ngram2.coverage" NAME="count_ngram2 Coverage Results" MODIFIED="1578990723296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/calculatepossibility$test.coverage" NAME="test Coverage Results" MODIFIED="1578936432708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/calculatepossibility$calculate_ngram3.coverage" NAME="calculate_ngram3 Coverage Results" MODIFIED="1578937020144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/calculatepossibility$deduplication.coverage" NAME="deduplication Coverage Results" MODIFIED="1578818974335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -62,11 +57,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/insert_data.sql">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="287">
@@ -75,13 +65,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculate_ngram3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="216">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/count_ngram2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
               <folding>
-                <element signature="e#165#174#0" expanded="true" />
+                <element signature="e#1#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,6 +156,7 @@
         <option value="$PROJECT_DIR$/countngram.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/calculate_ngram3.py" />
+        <option value="$PROJECT_DIR$/count_ngram2.py" />
       </list>
     </option>
   </component>
@@ -209,18 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.calculate_ngram3">
-    <configuration name="test.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
-      <module name="calculatepossibility" />
-      <option name="INTERPRETER_OPTIONS" value="bash" />
-      <option name="INTERPRETER_PATH" value="/usr/bin/env" />
-      <option name="PROJECT_INTERPRETER" value="false" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.sh" />
-      <option name="PARAMETERS" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.count_ngram2">
     <configuration name="calculate_ngram3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="calculatepossibility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -235,6 +224,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/calculate_ngram3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="count_ngram2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="calculatepossibility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/count_ngram2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -311,11 +322,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.count_ngram2" />
         <item itemvalue="Python.calculate_ngram3" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.deduplication" />
         <item itemvalue="Python.countngram" />
-        <item itemvalue="Bash.test.sh" />
       </list>
     </recent_temporary>
   </component>
@@ -351,12 +362,20 @@
       <workItem from="1578816041534" duration="874000" />
       <workItem from="1578818277439" duration="3171000" />
       <workItem from="1578899827885" duration="5169000" />
-      <workItem from="1578936196228" duration="2260000" />
+      <workItem from="1578936196228" duration="4299000" />
     </task>
+    <task id="LOCAL-00001" summary="ngram_3">
+      <created>1578985049333</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578985049334</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70034000" />
+    <option name="totallyTimeSpent" value="72073000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -369,7 +388,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="949" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20879121" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -385,8 +403,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.498779" weight="0.32905483" />
       <window_info anchor="bottom" id="Database Changes" order="9" sideWeight="0.498779" weight="0.32905483" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.52991456" side_tool="true" weight="0.30571762" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.47008547" weight="0.30688447" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.8937729" visible="true" weight="0.32788798" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.47008547" visible="true" weight="0.30688447" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.8937729" weight="0.32788798" />
       <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.8406593" weight="0.32905483" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -399,6 +417,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ngram_3" />
+    <option name="LAST_COMMIT_MESSAGE" value="ngram_3" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -526,10 +548,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/calculate_ngram3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="216">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/count_ngram2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
           <folding>
-            <element signature="e#165#174#0" expanded="true" />
+            <element signature="e#1#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
