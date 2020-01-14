@@ -6,6 +6,13 @@
 # @file: calculate_ngram3.py
 # @time: 2020-01-14 01:27
 # @desc:
+
+import sys
+defaultencoding = 'utf-8'
+if sys.getdefaultencoding() != defaultencoding:
+    reload(sys)
+    sys.setdefaultencoding(defaultencoding)
+
 import os
 import re
 import main
