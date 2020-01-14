@@ -21,7 +21,3 @@ if __name__ == "__main__":
             gram_2[words] = count
     
     print(gram_2.get('一 一'))
-
-
-
-
