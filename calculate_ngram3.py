@@ -30,8 +30,8 @@ class LanguageModelContent:
 if __name__ == "__main__":
 
     gram_2 = {}
-    # with open('/Data_SSD/zhipengye/zhipengye/data/gram2/gram2_count', encoding='utf-8') as file:
-    with open('/Data_SSD/zhipengye/zhipengye/data/gram2/gram2ngrams-00002-of-00394', encoding='utf-8') as file:
+    with open('/Data_SSD/zhipengye/zhipengye/data/gram2/gram2_count', encoding='utf-8') as file:
+    # with open('/Data_SSD/zhipengye/zhipengye/data/gram2/gram2ngrams-00002-of-00394', encoding='utf-8') as file:
         for line in file:
             if '\n' is not line and '' is not line: 
                 try:
@@ -47,8 +47,8 @@ if __name__ == "__main__":
     dir_list = os.listdir('/Data_SSD/zhipengye/zhipengye/data/original_data/Data/data')
 
     # because ngrams-[00030 - 00036]-of-00394 have no invalid  data
-    # filtered_list = [dir for dir in dir_list if dir >= 'ngrams-00037-of-00394' and dir <= 'ngrams-00132-of-00394']
-    filtered_list = [dir for dir in dir_list if dir >= 'ngrams-00037-of-00394' and dir <= 'ngrams-00038-of-00394']
+    filtered_list = [dir for dir in dir_list if dir >= 'ngrams-00037-of-00394' and dir <= 'ngrams-00132-of-00394']
+    # filtered_list = [dir for dir in dir_list if dir >= 'ngrams-00037-of-00394' and dir <= 'ngrams-00038-of-00394']
 
 
     model_list = []
@@ -77,10 +77,12 @@ if __name__ == "__main__":
                 with open('/Data_SSD/zhipengye/zhipengye/data/gram3/gram3','a',encoding='utf-8') as file:
                     for model in model_list:
                         file.write(str(model) + '\n')
+                print('1000000 rows have been processed!') 
                         print('1000000 rows have been processed!')  
+                print('1000000 rows have been processed!') 
                 model_list = []
 
     with open('/Data_SSD/zhipengye/zhipengye/data/gram3/gram3','a',encoding='utf-8') as file:
         for model in model_list:
             file.write(str(model) + '\n')
-            print(str(len(model_list))+' rows have been processed!')  
+    print(str(len(model_list))+' rows have been processed!')              print(str(len(model_list))+' rows have been processed!')      print(str(len(model_list))+' rows have been processed!')  
