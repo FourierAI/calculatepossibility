@@ -14,10 +14,10 @@ sys.stdout = codecs.getwriter('utf-8')(sys.stdout.detach())
 if __name__ == "__main__":
 
     content_list = []
-    with open('/Data_SSD/zhipengye/zhipengye/data/gram2/gram2_count.out') as file:
+    with open('/Data_SSD/zhipengye/zhipengye/data/gram2/gram2_count.out', encoding='utf-8') as file:
         for line in file:
             if line != '\n':
                 content_list.append(line)
     
-    with open('/Data_SSD/zhipengye/zhipengye/data/gram2/gram2_count','w') as file:
+    with open('/Data_SSD/zhipengye/zhipengye/data/gram2/gram2_count','w', encoding='utf-8') as file:
         file.write(''.join(content_list))
