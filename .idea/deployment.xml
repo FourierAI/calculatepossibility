@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="fourier@server.natappfree.cc:42559">
+    <serverData>
+      <paths name="10.7.48.54">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/fourier/Data/data" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="fourier@10.7.48.54:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/pycharm_project_629" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="fourier@server.natappfree.cc:42559">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/pycharm_project_916" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
