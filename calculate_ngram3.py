@@ -21,9 +21,9 @@ if __name__ == "__main__":
     gram_2 = {}
     with open('/Data_SSD/zhipengye/zhipengye/data/gram2/gram2ngrams-00002-of-00394', encoding='utf-8') as file:
         for line in file:
-            if '' is not line: 
+            if '\n' is not line and '' is not line: 
                 try:
-                    segments = re.split('[\t\s]+'.encode('utf-8'),line)
+                    segments = re.split('[\t\s]+',line)
                     first_word = segments[0]
                     second_word = segments[1]
                     count = segments[2]
