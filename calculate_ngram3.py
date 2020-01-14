@@ -16,9 +16,10 @@ if __name__ == "__main__":
     gram_2 = {}
     with open('/Data_SSD/zhipengye/zhipengye/data/gram2/gram2_count.out', encoding='utf-8') as file:
         for line in file:
-            segments = line.split('\t')
-            words = segments[0]
-            count = segments[1]
-            gram_2[words] = count
+            segments = re.split('[\s\t]+',line)
+            first_word = segments[0]
+            second_word = segments[1]
+            count = segments[2]
+            gram_2[first_word + ' '+second_word] = count
     
     print(gram_2.get('一 一'))
