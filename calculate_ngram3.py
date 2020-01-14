@@ -73,7 +73,7 @@ if __name__ == "__main__":
                         model = LanguageModelContent(conditional_possibility,words )
                         model_list.append(model)
 
-            if len(model_list) > 1000000:
+            if len(model_list) >= 1000000:
                 with open('/Data_SSD/zhipengye/zhipengye/data/gram3/gram3','a') as file:
                     for model in model_list:
                         file.write(str(model) + '\n')
