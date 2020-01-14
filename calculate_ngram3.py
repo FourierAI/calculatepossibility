@@ -16,8 +16,12 @@ if __name__ == "__main__":
 
     dir_list = sorted(os.listdir('/home/fourier/Data/data'))
 
-    filtered_list = [dir for dir in dir_list if dir >= 'ngrams-00030-of-00394' and dir <= 'ngrams-00132-of-00394']
+    grams_2_dir = sorted(os.listdir('/home/fourier/Data/processed_file/data/unfilter_data/ngram2')) 
 
+    # because ngrams-[00030 - 00036]-of-00394 have no invalid  data
+    filtered_list = [dir for dir in dir_list if dir >= 'ngrams-00037-of-00394' and dir <= 'ngrams-00132-of-00394']
+
+    conditonal_2count=0
     for file in filtered_list:
         with open('/home/fourier/Data/data/'+file) as file:
             for line in file:
@@ -26,3 +30,17 @@ if __name__ == "__main__":
                     first_word = segments[0]
                     second_word = segments[1]
                     third_word = segments[2]
+                    words_count = segments[3]
+
+                    grams_2 = first_word + ' '+ second_word
+
+                    if conditonal_2count =0:
+                        for file in grams_2_dir:
+                            with open('/home/fourier/Data/processed_file/data/unfilter_data/ngram2/'+file) as file:
+                                for line in file:
+                                    segments = line.split('\t')
+                                    # todo                                    
+
+
+
+
