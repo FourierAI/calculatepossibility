@@ -27,9 +27,9 @@ if __name__ == "__main__":
         with open('/Data_SSD/zhipengye/zhipengye/data/original_data/Data/data/'+file_name,encoding='utf-8') as file:
             for line in file:
                 segments = line.split('\t')
-                word = segments[0].strip()
+                word = segments[0].replace(' ','')
                 if word in word_set:
-                    content_list.append(word)
+                    content_list.append(line.strip())
         with open('/Data_SSD/zhipengye/zhipengye/data/original_data/Data/filtered_file/'+file_name,'a',encoding='utf-8') as file:
             file.write('\n'.join(content_list))
 
