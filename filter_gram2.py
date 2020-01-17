@@ -34,11 +34,11 @@ if __name__ == "__main__":
             if flag:
                 content_list.append(line.strip())
 
-            if len(content_list) >= 100000:
-                with open('/Data_SSD/zhipengye/zhipengye/data/gram2/filtered_gram2_count', 'a', encoding='utf-8') as file:
+            if len(content_list) >= 1000000:
+                with open('/Data_SSD/zhipengye/zhipengye/data/gram2/filtered_gram2_count1', 'a', encoding='utf-8') as file:
                     file.write('\n'.join(content_list))
                 content_list = []
-                print('100000 rows have been processed!')
+                print('1000000 rows have been processed!')
 
-    with open('/Data_SSD/zhipengye/zhipengye/data/gram2/filtered_gram2_count', 'a',encoding='utf-8') as file:
+    with open('/Data_SSD/zhipengye/zhipengye/data/gram2/filtered_gram2_count1', 'a',encoding='utf-8') as file:
         file.write('\n'.join(content_list))
