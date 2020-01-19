@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09a1c0eb-8f43-4587-9b80-21caf4c03b8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/full_chinese.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gram3_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filter_gram2.py" beforeDir="false" afterPath="$PROJECT_DIR$/filter_gram2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,17 +38,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculate_ngram3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1327">
-              <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            <state relative-caret-position="553">
+              <caret line="58" column="27" lean-forward="true" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+              <folding>
+                <element signature="e#166#175#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deduplication.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gram3_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-367">
-              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+            <state relative-caret-position="319">
+              <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+              <folding>
+                <element signature="e#166#179#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="93" column="25" lean-forward="true" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
+            <state relative-caret-position="398">
+              <caret line="102" column="12" selection-start-line="102" selection-start-column="12" selection-end-line="103" selection-end-column="45" />
               <folding>
                 <element signature="e#154#163#0" expanded="true" />
               </folding>
@@ -123,11 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/full_chinese.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="240">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
               <folding>
                 <element signature="e#162#171#0" expanded="true" />
               </folding>
@@ -181,13 +186,13 @@
         <option value="$PROJECT_DIR$/filter_origindata.py" />
         <option value="$PROJECT_DIR$/filter_gram2.py" />
         <option value="$PROJECT_DIR$/full_chinese.py" />
+        <option value="$PROJECT_DIR$/gram3_model.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1680" />
-    <option name="height" value="949" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -393,7 +398,7 @@
       <workItem from="1579146123857" duration="747000" />
       <workItem from="1579146875781" duration="9869000" />
       <workItem from="1579171207908" duration="4675000" />
-      <workItem from="1579252168488" duration="1371000" />
+      <workItem from="1579252168488" duration="4793000" />
     </task>
     <task id="LOCAL-00001" summary="ngram_3">
       <created>1578985049333</created>
@@ -437,11 +442,18 @@
       <option name="project" value="LOCAL" />
       <updated>1579172171135</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="filter full chinese">
+      <created>1579253960186</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1579253960186</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92807000" />
+    <option name="totallyTimeSpent" value="96229000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -453,10 +465,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="949" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13308914" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17032968" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -470,8 +482,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4981685" weight="0.22690058" />
       <window_info anchor="bottom" id="Database Changes" order="9" sideWeight="0.498779" weight="0.32905483" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.53174603" side_tool="true" weight="0.30760235" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.46825397" weight="0.30688447" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.8901099" visible="true" weight="0.32672113" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.46825397" weight="0.30612245" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.8901099" visible="true" weight="0.2857143" />
       <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.6098901" weight="0.32788798" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -529,7 +541,8 @@
     <MESSAGE value="ngram_3" />
     <MESSAGE value="filter file" />
     <MESSAGE value="filter gram2" />
-    <option name="LAST_COMMIT_MESSAGE" value="filter gram2" />
+    <MESSAGE value="filter full chinese" />
+    <option name="LAST_COMMIT_MESSAGE" value="filter full chinese" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -652,10 +665,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculate_ngram3.py">
+    <entry file="file://$PROJECT_DIR$/deduplication.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1327">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        <state relative-caret-position="-367">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insert_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-526">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/count_ngram2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#1#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -663,13 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="470">
           <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deduplication.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-367">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -693,12 +719,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insert_data.py">
+    <entry file="file://$PROJECT_DIR$/full_chinese.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-526">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        <state relative-caret-position="240">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#162#171#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -710,32 +736,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/count_ngram2.py">
+    <entry file="file://$PROJECT_DIR$/calculate_ngram3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="553">
+          <caret line="58" column="27" lean-forward="true" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
           <folding>
-            <element signature="e#1#10#0" expanded="true" />
+            <element signature="e#166#175#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="93" column="25" lean-forward="true" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
+        <state relative-caret-position="398">
+          <caret line="102" column="12" selection-start-line="102" selection-start-column="12" selection-end-line="103" selection-end-column="45" />
           <folding>
             <element signature="e#154#163#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/full_chinese.py">
+    <entry file="file://$PROJECT_DIR$/gram3_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="319">
+          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
           <folding>
-            <element signature="e#162#171#0" expanded="true" />
+            <element signature="e#166#179#0" expanded="true" />
           </folding>
         </state>
       </provider>
